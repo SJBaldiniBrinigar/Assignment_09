@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Vecta Corp. Support</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="jquery-ui-1.11.4/jquery-ui.min.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery.mobilemenu.js"></script>
+	<script src="jquery-ui-1.11.4/jquery-ui.min.js"></script>
+	
+	<script>
+		$(document).ready(function(){
+			$('#responsive-menu').mobileMenu();
+            $( ".nav" ).tooltip();
+		});
+	</script>
+</head>
+<body>
+	<main class="container">
+		<figure class="three columns">
+			<img src="images/logo.gif" class="scale-with-grid" alt="">
+		</figure>
+		
+		<nav class="thirteen columns">
+			<ul id="responsive-menu">
+				<li><a href="index.html" title="Vecta Corp. Home Page">Home</a></li>
+				<li><a href="aboutus.html" title="Learn about the people of Vecta Corp.">About Us</a></li>
+				<li><a href="solutions.html" title="Vecta Corp offers 3 solutions for prospecting, converting, and retaining customers.">Solutions</a></li>
+				<li><a href="support.html" title="Find the latest technical resources from Vecta Corp.">Support</a></li>
+				<li><a href="contactus.html" title="Vecta Corp. Contact Us Form">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<header class="sixteen columns">
+			<img src="images/header.gif" class="scale-with-grid" alt="">
+		</header>
+		
+		<section id="welcome" class="sixteen columns">
+			<h4>Support</h4>
+			<p>Find the latest technical resources including articles, tips, patches, documentation and more and discuss ideas with your peers. These communities are your convenient one-stop shop for vSupport. Still have a question? <a href="mailto:support@vectacorp.com?Subject=I%20need%20help...">Send us an email</a>.</p>
+		</section>
+	</main>
+</body>
+</html>
